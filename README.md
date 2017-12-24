@@ -1,5 +1,5 @@
 # Renovate SVN Updater Script
-A batch script for windows to automaticaly initialize all 3 Renovate [SVN Repos](http://www.renovate-ice.com/), sync them and pack the zip ready for flash. Requires [TortureSVN](https://tortoisesvn.net/downloads.html) installed.
+A batch script for windows to automaticaly initialize all Renovate [SVN Repos](http://www.renovate-ice.com/), sync them and pack the zip ready for flash. Requires [TortureSVN](https://tortoisesvn.net/downloads.html) installed.
 
 ## Setup
 1. Install [TortureSVN](https://tortoisesvn.net/downloads.html)
