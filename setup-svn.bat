@@ -1,10 +1,14 @@
 @echo off
+:menu
 echo.
-echo Setup Renovate ICE ROM? [Y/N]
-set /p rom1=
-if /I %rom1%==y svn checkout http://www.renovate-ice.com/svn/renovate-dream/trunk/ Renovate_ICE
+echo Type in a number to setup a repository.
 echo.
-echo Setup Renovate ICE OR3O ROM? [Y/N]
-set /p rom2=
-svn checkout http://www.renovate-ice.com/svn/renovate-dream-oreo/trunk/ Renovate_ICE_OREO
-pause
+echo 1. Setup Renovate ICE G95X ROM
+echo 2. Setup Renovate ICE OR3O ROM
+echo 0. Exit
+echo.
+set /p menu=Number: 
+if /I %menu% == 1 svn checkout http://www.renovate-ice.com/svn/renovate-dream/trunk/ Renovate_ICE
+if /I %menu% == 2 svn checkout http://www.renovate-ice.com/svn/renovate-dream-oreo/trunk/ Renovate_ICE_OREO
+if /I %menu% == 0 exit 
+goto menu
