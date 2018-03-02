@@ -15,4 +15,4 @@ You can re-run the setup-svn.bat to add more roms. It does not matter if you res
 If you want to delete a ROM just delete the folder for the ROM.
 
 ## Contained Software
-[Z-zip](http://www.7-zip.org/) licensed under GNU LGPL license
+[7-zip](http://www.7-zip.org/) licensed under GNU LGPL license
